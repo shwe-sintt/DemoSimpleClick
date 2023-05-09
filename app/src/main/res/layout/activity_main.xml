@@ -26,12 +26,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textViewDisplay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/edTxtInput" />
-
     <RadioGroup
         android:id="@+id/radioGroupGender"
         android:layout_width="match_parent"
@@ -58,4 +52,10 @@
         android:text="ToggleButton"
         android:textOff="@string/disabled"
         android:textOn="@string/enabled" />
+
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edTxtInput" />
 </LinearLayout>
